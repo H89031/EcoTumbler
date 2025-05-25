@@ -92,7 +92,8 @@
                     android:gravity="center">
 
                     <TextView
-                        android:text="08"
+                        android:id="@+id/days"
+                        android:text="00"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="0dp"
@@ -124,7 +125,8 @@
                     android:gravity="center">
 
                     <TextView
-                        android:text="22"
+                        android:id="@+id/hours"
+                        android:text="00"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="0dp"
@@ -156,7 +158,8 @@
                     android:gravity="center">
 
                     <TextView
-                        android:text="13"
+                        android:id="@+id/minutes"
+                        android:text="00"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="0dp"
@@ -315,6 +318,7 @@
                     android:padding="3dp">
 
                     <TextView
+                        android:id="@+id/edit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-black"
@@ -330,7 +334,8 @@
             </GridLayout>
 
             <TextView
-                android:text="1 WEEK"
+                android:id="@+id/every_date"
+                android:text="N/A"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
@@ -349,6 +354,7 @@
                 android:columnCount="7">
 
                 <LinearLayout
+                    android:id="@+id/sun"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -368,6 +374,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/mon"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -388,6 +395,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/tue"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -408,6 +416,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/wed"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -428,6 +437,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/thu"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -448,6 +458,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/fri"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -468,6 +479,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/sat"
                     android:layout_columnWeight="1"
                     android:layout_height="30dp"
                     android:layout_width="30dp"
@@ -499,19 +511,21 @@
             android:columnCount="2">
 
             <LinearLayout
+                android:id="@+id/connect_container"
                 android:padding="20dp"
                 android:layout_columnWeight="1"
-                android:background="@drawable/f_grid"
+                android:background="@drawable/f_blue"
                 android:orientation="horizontal"
                 android:gravity="center">
 
                 <TextView
+                    android:id="@+id/connect_button"
                     android:text="CONNECT TO WI-FI"
                     android:layout_width="135sp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:textSize="15sp"
-                    android:textColor="#224b89"
+                    android:textColor="@color/white"
                     android:fontFamily="sans-serif-black">
                 </TextView>
 
