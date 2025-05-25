@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e1a32"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="62dp"
+                app:srcCompat="@drawable/name"
+                android:layout_columnWeight="0"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="0"
+                android:layout_gravity="right"/>
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/f_grid"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:text="WIFI NETWORKS"
+                android:layout_columnWeight="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black">
+            </TextView>
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:columnCount="2">
+
+            <LinearLayout
+                android:padding="20dp"
+                android:layout_columnWeight="1"
+                android:background="@drawable/f_grid"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:text="SCAN AGAIN"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="#224b89"
+                    android:fontFamily="sans-serif-black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="20dp"
+                android:layout_columnWeight="1"
+                android:background="@drawable/f_grid"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginLeft="15dp">
+
+                <TextView
+                    android:text="DONE"
+                    android:layout_width="135sp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="#224b89"
+                    android:fontFamily="sans-serif-black">
+                </TextView>
+
+            </LinearLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "336756958576",
+    "firebase_url": "https://my-esp32-database-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "my-esp32-database",
+    "storage_bucket": "my-esp32-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336756958576:android:1392ffe312014638971bb5",
+        "android_client_info": {
+          "package_name": "com.example.ecotumbler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa9zR_LEDFQUgv9f4Dnl2nHyKhKaoL838"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336756958576:android:c9c42043af630002971bb5",
+        "android_client_info": {
+          "package_name": "com.example.my_esp32_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa9zR_LEDFQUgv9f4Dnl2nHyKhKaoL838"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
